@@ -1,0 +1,51 @@
+/* Created by: MariaG
+ * Modified by: Santiago Hewett
+ * Created on: March 2023
+ * This CSS file defines the style for index.php
+ * ICS2O-Unit3-04-PHP-FarenheitCelsius
+*/
+
+form {
+  background-color: #73a6f7;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h1 { 
+  background-color: #c861ff;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h3 {
+  background-color: #57daf4;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+iframe {
+  margin-bottom: 5%;
+  background-color: #ff0019;
+	padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+	margin-top: 15px;
+}
+
+#yellow {
+  background-color: #8767f9;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
