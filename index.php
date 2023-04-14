@@ -20,7 +20,7 @@ echo "<h3>This program will calculate the goals needed to become the greatest go
 ?>
 <!-- form to get the goals per game from the user -->
     <form action="./results.php" method="post" target="results">
-      <label for=lblgoalsPerGame">Enter your goals per game:</label>
+      <label for=goalsPerGame">Enter your goals per game:</label>
       <input type="text" id="goalsPerGame" placeholder="Enter your goals per game" name="goalsPerGame"><br>
     </form>
 
@@ -28,7 +28,9 @@ echo "<h3>This program will calculate the goals needed to become the greatest go
     <form action="./results.php" method="post" target="results">
       <label for=lblgamesPlayedGoals">Enter your games played:</label>
       <input type="text" id="gamesPlayedGoals" placeholder="Enter your games played" name="gamesPlayedGoals"><br><br>
-      <input type="submit" value="Calculate">
+      <input type="submit" name="button1" class="button" value="Calculate" />
+    
+      
     </form>
     
     <!-- iframe for the results to show on the web page for goals -->
@@ -50,7 +52,7 @@ echo "<h3>This program will calculate the assists needed to become the greatest 
     <form action="./results.php" method="post" target="results">
       <label for=lblgamesPlayedAssists">Enter your games played:</label>
       <input type="text" id="gamesPlayedAssists" placeholder="Enter your games played" name="gamesPlayedAssists"><br><br>
-      <input type="submit" value="Calculate">
+      <input type="submit" name="button1" class="button" value="Calculate" />
     </form>
     
     <!-- iframe for the results to show on the web page for assists -->
