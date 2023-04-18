@@ -14,26 +14,21 @@
   </head>
   <body>
     <!-- php echo to print the html to the page -->
-<?php 
-echo "<h1>Goals and Assists to Become the Greatest Soccer Player</h1>";
-echo "<h3>This program will calculate the goals and assists needed to become the greatest soccer player of all time.</h3>";
-?>
-<!-- form to get the goals per game from the user -->
+    <?php 
+      echo "<h1>Goals and Assists to Become the Greatest Soccer Player</h1>";
+      echo "<h3>This program will calculate the goals and assists needed to become the greatest soccer player of all time.</h3>";
+    ?>
+
+    <!-- form to get the goals per game from the user -->
     <form action="./results.php" method="post" target="results">
       <label for=goalsPerGame">Enter your goals per game:</label>
-      <input type="text" id="goalsPerGame" placeholder="Enter your goals per game" name="goalsPerGame"><br>
-    </form>
-
-    <!-- form to get the games played for goals from the user -->
-    <form action="./results.php" method="post" target="results">
+      <input type="text" id="goalsPerGame" placeholder="Enter your goals per game" name="goalsPerGame"><br><br>
+    
       <label for=lblgamesPlayedGoalsAndAssists">Enter your games played:</label>
-      <input type="text" id="gamesPlayedGoalsAndAssists" placeholder="Enter your games played" step="1" min="1" name="gamesPlayedGoalsAndAssists"><br>
-    </form>
-
-    <!-- form to get the assists per game from the user -->
-    <form action="./results.php" method="post" target="results">
+      <input type="text" id="gamesPlayedGoalsAndAssists" placeholder="Enter your games played" step="1" min="1" name="gamesPlayedGoalsAndAssists"><br><br>
+    
       <label for=lblassistsPerGame">Enter your assists per game:</label>
-      <input type="text" id="assistsPerGame" placeholder="Enter your assists" name="assistsPerGame"><br>
+      <input type="text" id="assistsPerGame" placeholder="Enter your assists" name="assistsPerGame"><br><br>
       <input type="submit" name="button" class="button" value="Calculate" />
     </form>
     
